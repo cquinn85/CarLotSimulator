@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Security.Cryptography.X509Certificates; 
+using System.Security.Cryptography.X509Certificates;
+using System.Globalization;
 
 namespace CarLotSimulator
 {
@@ -9,6 +10,10 @@ namespace CarLotSimulator
     {
         public Car()
         {
+            //increment cars by one
+            CarLot.numberOfCars++;
+            //class name.staticmember
+          
 
         }
 
